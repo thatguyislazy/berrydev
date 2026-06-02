@@ -8,6 +8,7 @@ const exactLogoMap: { [key: string]: { url: string; shadowColor: string } } = {
   "JavaScript": { url: "https://cdn.simpleicons.org/javascript/F7DF1E", shadowColor: "rgba(247,223,30,0.2)" },
   "TailwindCSS": { url: "https://cdn.simpleicons.org/tailwindcss/06B6D4", shadowColor: "rgba(6,182,212,0.2)" },
   "PHP": { url: "https://cdn.simpleicons.org/php/777BB4", shadowColor: "rgba(119,123,180,0.2)" },
+  "C": { url: "https://cdn.simpleicons.org/c/A8B9CC", shadowColor: "rgba(168,185,204,0.2)" },
 
   // Hardware & Embedded Systems
   "Arduino": { url: "https://cdn.simpleicons.org/arduino/00979D", shadowColor: "rgba(0,151,157,0.2)" },
@@ -16,14 +17,10 @@ const exactLogoMap: { [key: string]: { url: string; shadowColor: string } } = {
   "STM32": { url: "https://cdn.simpleicons.org/stmicroelectronics/003E5A", shadowColor: "rgba(0,62,90,0.2)" },
   "Seeeduino": { url: "https://img.shields.io/badge/-Seeed_Studio-94C11F", shadowColor: "rgba(148,193,31,0.2)" }, 
 
-  // AI, Machine Learning & Engineering Tools
+  //Engineering Tools
   "Proteus": { url: "https://cdn.simpleicons.org/proteus/00539B", shadowColor: "rgba(0,83,155,0.2)" },
   "KiCad": { url: "https://cdn.simpleicons.org/kicad/314E86", shadowColor: "rgba(49,78,134,0.2)" },
-  "Python": { url: "https://cdn.simpleicons.org/python/3776AB", shadowColor: "rgba(55,118,171,0.2)" },
-  "C": { url: "https://cdn.simpleicons.org/c/A8B9CC", shadowColor: "rgba(168,185,204,0.2)" },
-  "Firebase": { url: "https://cdn.simpleicons.org/firebase/FFCA28", shadowColor: "rgba(255,202,40,0.2)" },
   "CNC Programming": { url: "https://cdn.simpleicons.org/autodesk/06B6D4", shadowColor: "rgba(6,182,212,0.1)" }, 
-  "Roboflow": { url: "https://cdn.simpleicons.org/roboflow/94C11F", shadowColor: "rgba(148,193,31,0.2)" },
 
   // UI/UX & Creative Design
   "Figma": { url: "https://cdn.simpleicons.org/figma/F24E1E", shadowColor: "rgba(242,78,30,0.2)" },
@@ -38,7 +35,26 @@ const exactLogoMap: { [key: string]: { url: string; shadowColor: string } } = {
   //Mobile Development
   "Android Studio": { url: "https://cdn.simpleicons.org/androidstudio/3DDC84", shadowColor: "rgba(61,220,132,0.2)"},
   "Flutter": { url: "https://cdn.simpleicons.org/flutter/02569B", shadowColor: "rgba(2,86,155,0.2)" },
-  "Kotlin": { url: "https://cdn.simpleicons.org/kotlin/7F52FF", shadowColor: "rgba(127,82,255,0.2)" }
+  "Kotlin": { url: "https://cdn.simpleicons.org/kotlin/7F52FF", shadowColor: "rgba(127,82,255,0.2)" },
+
+  //Machine Learning Tools & Frameworks
+  "TensorFlow": { url: "https://cdn.simpleicons.org/tensorflow/FF6F00", shadowColor: "rgba(255,111,0,0.2)" },
+  "PyTorch": { url: "https://cdn.simpleicons.org/pytorch/EE4C2C", shadowColor: "rgba(238,76,44,0.2)" },  
+  "Roboflow": { url: "https://cdn.simpleicons.org/roboflow/94C11F", shadowColor: "rgba(148,193,31,0.2)" },
+  "Python": { url: "https://cdn.simpleicons.org/python/3776AB", shadowColor: "rgba(55,118,171,0.2)" },
+  "OpenCV": { url: "https://cdn.simpleicons.org/opencv/5C3EE8", shadowColor: "rgba(92,62,232,0.2)" },
+
+  //Database & Cloud Services
+  "Firebase": { url: "https://cdn.simpleicons.org/firebase/FFCA28", shadowColor: "rgba(255,202,40,0.2)" },
+  "Supabase": { url: "https://cdn.simpleicons.org/supabase/333333", shadowColor: "rgba(51,51,51,0.2)" },
+  "mySQL": { url: "https://cdn.simpleicons.org/mysql/4479A1", shadowColor: "rgba(68,121,161,0.2)" },
+  "sqlite": { url: "https://cdn.simpleicons.org/sqlite/003B57", shadowColor: "rgba(0,59,87,0.2)" },
+
+  //Version Control & Deployment
+  "Github": { url: "https://cdn.simpleicons.org/github/181717", shadowColor: "rgba(24,23,23,0.2)" },
+  "Render": { url: "https://cdn.simpleicons.org/render/000000", shadowColor: "rgba(0,0,0,0.2)" },
+  "Vercel": { url: "https://cdn.simpleicons.org/vercel/000000", shadowColor: "rgba(0,0,0,0.2)" },
+  "Railway": { url: "https://cdn.simpleicons.org/railway/000000", shadowColor: "rgba(0,0,0,0.2)" }
 
 };
 
@@ -67,6 +83,21 @@ export function TechStack() {
     {
       title: "Mobile Development",
       skills: ["Android Studio", "Flutter", "Kotlin"]
+    },
+
+    {
+      title: "Machine Learning Tools & Frameworks",
+      skills: ["TensorFlow", "PyTorch", "Roboflow", "Python", "OpenCV"]
+    },
+
+    {
+      title: "Database & Cloud Services",
+      skills: ["Firebase", "Supabase", "mySQL", "sqlite"]
+    },
+
+    {
+      title: "Version Control & Deployment",
+      skills: ["Github", "Render", "Vercel", "Railway"]
     }
     
   ];

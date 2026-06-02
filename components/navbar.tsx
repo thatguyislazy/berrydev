@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react";
 import { Menu, X } from "lucide-react";
 
+//nav links for desktop and mobile
 const links = [
   { href: "#stack", label: "Tech Stack" },
   { href: "#projects", label: "Projects" },
