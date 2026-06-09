@@ -55,7 +55,7 @@ export function Hero() {
             </div>
 
             <p className="mt-2 font-mono text-sm md:text-base text-accent/90 tracking-wide">
-              Software Engineer <span className="text-slate-600">·</span> QA Test Specialist{" "}
+              Full Stack Developer | AI Automation Specialist <span className="text-slate-600">·</span> QA Test Specialist{" "}
               <span className="text-slate-600">·</span> Embedded Systems Programmer
             </p>
 
