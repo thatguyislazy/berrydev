@@ -3,7 +3,7 @@ export type Category = "Web" | "Mobile" | "IoT";
 export const timeline = [   
   {
     period: "January 2026 – Present",
-    role: "Freelancer — Web & Embedded Programmer",
+    role: "Freelancer Full Stack Developer | AI Automation Specialist",
     org: "Independent",
     text: "",
   },
