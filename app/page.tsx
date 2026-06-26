@@ -1,9 +1,9 @@
 // File: app/page.tsx
 import { Navbar } from "@/components/navbar";
 import { Hero } from "@/components/hero";
-// import { About } from "@/components/about";
 import { TechStack } from "@/components/tech-stack";
 import { Projects } from "@/components/projects";
+import AutomationSection from "@/components/automation";
 import { Services } from "@/components/services";
 import { Contact } from "@/components/contact";
 import { Footer } from "@/components/footer";
@@ -13,14 +13,9 @@ export default function Home() {
     <>
       <Navbar />
       <main className="relative flex min-h-screen flex-col bg-transparent text-slate-100 antialiased">
-
         <section id="top">
           <Hero />
         </section>
-
-        {/* <section id="about">
-          <About />
-        </section> */}
 
         <section id="stack">
           <TechStack />
@@ -29,6 +24,8 @@ export default function Home() {
         <section id="projects">
           <Projects />
         </section>
+
+        <AutomationSection />
 
         <section id="services">
           <Services />
