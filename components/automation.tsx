@@ -68,6 +68,50 @@ const FALLBACK_WORKFLOWS: WorkflowItem[] = [
     complexity: "Advanced",
     estimatedTimeSaved: "~2 hrs/day",
   },
+  {
+    id: "fallback-4",
+    name: "Client Conversation to Proposal",
+    active: false,
+    tags: [{ name: "Claude Roadmap" }],
+    nodes: ["Manual Trigger", "Code", "OpenAI", "Google Docs", "HTTP Request"],
+    description:
+      "Turns a raw client discovery call transcript into a formatted project proposal document — fully drafted by AI.",
+    complexity: "Medium",
+    estimatedTimeSaved: "~4 hrs/proposal",
+  },
+  {
+    id: "fallback-5",
+    name: "AI-Powered Customer Support Ticket Routing",
+    active: true,
+    tags: [{ name: "Claude Roadmap" }],
+    nodes: ["Webhook", "Claude AI", "Classify", "Route", "Notify"],
+    description:
+      "Automatically classifies incoming support tickets by urgency and category using Claude AI, then routes them to the right team channel.",
+    complexity: "Advanced",
+    estimatedTimeSaved: "~2 hrs/day",
+  },
+  {
+    id: "fallback-6",
+    name: "CV Scorer",
+    active: false,
+    tags: [],
+    nodes: ["Trigger", "Parse CV", "Claude AI", "Score", "Export"],
+    description:
+      "Parses uploaded CVs and scores candidates against configurable job requirements using Claude AI, producing structured evaluation reports.",
+    complexity: "Medium",
+    estimatedTimeSaved: "~1 hr/candidate",
+  },
+  {
+    id: "fallback-7",
+    name: "Google Sheets Append Email",
+    active: false,
+    tags: [],
+    nodes: ["Gmail", "Parse", "Google Sheets", "Append Row"],
+    description:
+      "Monitors incoming emails and automatically appends structured data from each message into a Google Sheet for tracking and reporting.",
+    complexity: "Simple",
+    estimatedTimeSaved: "~30 min/day",
+  },
 ];
 
 // ── Node icons map ───────────────────────────────────────────────────────────
