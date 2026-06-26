@@ -251,15 +251,9 @@ export default function AutomationSection() {
       {/* Header — matches TechStack / Projects layout */}
       <div className="flex flex-col lg:flex-row justify-between items-start lg:items-end mb-16 gap-6">
         <div className="reveal">
-          <p className="font-mono text-xs text-accent uppercase tracking-[0.2em] mb-3">
-            Automations
-          </p>
           <h3 className="text-3xl font-extrabold text-white tracking-tight sm:text-4xl font-display">
             AI Workflows I&apos;ve Built
           </h3>
-          <p className="text-slate-400 text-sm mt-2 max-w-lg">
-            Production n8n automations powered by Claude AI — saving hours of manual work every day.
-          </p>
         </div>
 
         <div className="flex items-center gap-3 flex-wrap reveal reveal-delay-1">

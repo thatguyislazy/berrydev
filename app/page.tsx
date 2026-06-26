@@ -1,6 +1,7 @@
 // File: app/page.tsx
 import { Navbar } from "@/components/navbar";
 import { Hero } from "@/components/hero";
+import { Showcase } from "@/components/showcase";
 import { TechStack } from "@/components/tech-stack";
 import { Projects } from "@/components/projects";
 import AutomationSection from "@/components/automation";
@@ -16,6 +17,8 @@ export default function Home() {
         <section id="top">
           <Hero />
         </section>
+
+        <Showcase />
 
         <section id="stack">
           <TechStack />

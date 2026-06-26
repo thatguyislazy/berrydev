@@ -39,9 +39,6 @@ export function Services() {
     <section id="services" className="py-24 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 border-t border-white/[0.04] bg-transparent">
       {/* Header — matches Projects / Automation layout */}
       <div className="mb-16 reveal">
-        <p className="font-mono text-xs text-accent uppercase tracking-[0.2em] mb-3">
-          04 — Services
-        </p>
         <h3 className="text-3xl font-extrabold text-white tracking-tight sm:text-4xl font-display">
           What I can build for you.
         </h3>
