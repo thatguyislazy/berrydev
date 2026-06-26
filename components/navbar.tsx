@@ -12,6 +12,11 @@ const links = [
   { href: "#contact", label: "Contact" },
 ];
 
+const resumeLink = {
+  href: "https://drive.google.com/file/d/1TG01Zvtwa3HlfHMwSbk2uY6LayUkgedI/view?usp=drive_link",
+  label: "Resume",
+};
+
 export const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);
   const [open, setOpen] = useState(false);
@@ -57,6 +62,14 @@ export const Navbar = () => {
                 {l.label}
               </a>
             ))}
+            <a
+              href={resumeLink.href}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-accent transition-colors duration-200"
+            >
+              {resumeLink.label}
+            </a>
           </nav>
         </div>
 
@@ -84,6 +97,15 @@ export const Navbar = () => {
                 {l.label}
               </a>
             ))}
+            <a
+              href={resumeLink.href}
+              target="_blank"
+              rel="noopener noreferrer"
+              onClick={() => setOpen(false)}
+              className="text-slate-400 hover:text-accent transition-colors"
+            >
+              {resumeLink.label}
+            </a>
             {/* <a
               href="#contact"
               onClick={() => setOpen(false)}
