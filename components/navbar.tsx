@@ -13,7 +13,7 @@ const links = [
 ];
 
 const resumeLink = {
-  href: "https://drive.google.com/file/d/1TG01Zvtwa3HlfHMwSbk2uY6LayUkgedI/view?usp=drive_link",
+  href: "https://drive.google.com/file/d/1kAEykuRv05FxiGfxkhGj-41ufkQm5pHb/view?usp=sharing",
   label: "Resume",
 };
 
